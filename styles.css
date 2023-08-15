@@ -62,3 +62,36 @@
 
     }
     
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: cornsilk; 
+    }
+    
+    /* Project box styles */
+    .project-box {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 20px;
+    }
+    
+    .project-box h2 {
+        font-size: 1.5rem;
+        color:palevioletred;
+        margin-bottom: 10px;
+    }
+    
+    .project-box p {
+        font-size: 1rem;
+        color: darkslategray;
+        margin-bottom: 10px;
+    }
+    
+    .project-box a {
+        color:#237bbd;
+        font-weight: bold;
+    }
