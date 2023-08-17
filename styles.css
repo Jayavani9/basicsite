@@ -1,39 +1,41 @@
 
-.navbar {
-    background-color:indianred;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-}
-
-.navbar a {
-    float:left;
-    display:block;
+    background-color:cadetblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
-.navbar a:hover {
-    background-color: beige;
-    color: burlywood;
+.image-gallery img {
+    margin: 10px;
+    width: 190px;
+    height: 170px;
 }
 
-    .about {
-        background-color: #f2f2f2;
-        padding: 30px;
-        border-radius: 10px;
-        text-align: center;
-        font-family: Arial, sans-serif;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .about p {
-        font-size: 18px;
-        line-height: 1.6;
-        color: #333;
-        margin: 0; /* Remove default margin for paragraphs */
-    }
 
     body {
         background-color: cornsilk;
@@ -42,37 +44,18 @@
         padding: 0;
     }
     
-    .contact{
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color:bisque;
-    }
-
-    .contact p {
-        color: darkslategray;
-        margin: 10px 0;
-        font-size: 20px;
-    }
-    
-    .contact a {
-        color:blue;
-        font-weight: bold;
-        text-decoration: underline;
-
-    }
     
     .project-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-gap: 20px;
+        grid-gap: 30px;
         max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
+        margin: auto;
+        padding: 70px;
         background-color: cornsilk; 
     }
     
-    /* Project box styles */
+
     .project-box {
         background-color: white;
         border: 1px solid #ddd;
@@ -95,9 +78,17 @@
         color:#237bbd;
         font-weight: bold;
     }
+    /*
     .pr {
-        max-width: 1400px;
+        max-width: 3000px;
         margin: 10px auto;
         padding : 10px;
         background-color:azure;
+    }
+    */
+    .pr{
+        margin: 20px;
+        padding: 60px;
+        border-radius: 10px;
+        background-color:ivory;
     }
